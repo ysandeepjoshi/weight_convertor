@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Convertor(Pound to Kg)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="pound2Kg" >
+        <h1>Weight Convertor (Pound to Kg)</h1>
+        <p>Enter Weight in Pound</p>
+        <p>
+            <label for="Pound">Pound</label>
+            <input type="number" id="Pound" placeholder="Pound" 
+            oninput="pound2Kg(this.value)" onchange="pound2Kg(this.value)">
+        </p>
+        <p>Your Weight in Kilogram is: <span id="outputPounds"></span></p>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
